@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ScaleCamera</string>	
+	<string name="OK">OK</string>
+	<string name="playButtonText_play">Play</string>
+	<string name="playButtonText_pause">Pause</string>
+	<string name="loadButtonText_img">Load Image</string>	
+	<string name="loadButtonText_vid">Load Video</string>
+	<string name="scaleButtonText">Set Scale</string>
+	<string name="computeButtonText">Compute</string>
+	<string name="tableButtonText">Show Table</string>
+	<string name="emailButtonText">Send as Email</string>
+	<string name="resultTextView_title">Recent:</string>
+	<string name="distOKButtonText_scale">Set Scale</string>
+	<string name="distOKButtonText_tag">Add label to result</string>	
+	<string name="distOKButtonText_camera">Take a photo</string>
+	<string name="distTextViewText_tag">Please enter a label for this distance to show in the results table.</string>
+<!--	<string name="distTextViewText_camera">Please enter a filename for the picture you\'re about to take.</string>-->
+<!--	<string name="backBtn_text">Back</string>-->
+	<string name="cameraButton_text">Camera</string>
+	<string name="credits_title">Thanks to...</string>
+	<string name="instr_title">Instructions</string>
+	<string name="credits_content">Xamarin support personnel and the stackOverflow community for \'surmounting\' insurmountable obstacles. Jenny Baker, my fantastic ICTP teacher, for always being interested. Hillcrest High School, for the purchase of a Mono for Android licence. Sam Hight, for the initial concept and valuable feedback. Kayla Grant, for putting up with me all year. </string>
+	<string name="instr_content">\"Load Image\" and pick or capture a picture. Touch two points on the image, \"Set Scale\", and enter real-life distance. Touch two other points, \"Compute\", enter a unique label to describe the measurement. \n\"Show Table\" lists all measurements, ready to \"Send as Email\" or go back to main screen.\nAfter \"Load Video\", you must \"Play\" it to see anything.</string>
+<!--	<string name="instr_str">Load an image or video using the appropriate button, then touch points on the image (a video will need to be played and paused before measuring) to select a scale distance. Touch \"Set Scale\" and enter the real-life mesuarement for the distance you\'ve selected. Now you\'re ready to measure! Touch points as before and \"Compute\" to calculate the real-life distance. Each computed distance needs a unique string to identify it, describing the measurement you have made. All the distances are collected in the Table screen (\"Show Table\") and from there, may be emailed on to collaborators.</string>-->
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="fill_parent"
+    p1:layout_height="fill_parent"
+    p1:id="@+id/relativeLayout1">
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:id="@+id/linearLayout1"
+        p1:weightSum="3"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_alignParentBottom="true"
+        p1:layout_alignParentTop="true"
+        p1:layout_alignParentRight="true"
+        p1:layout_centerVertical="false">
+        <Button
+            p1:text="Start"
+            p1:id="@+id/startBtn"
+            p1:layout_width="fill_parent"
+            p1:layout_height="0dp"
+            p1:layout_weight="1" />
+        <Button
+            p1:text="Instructions"
+            p1:layout_width="wrap_content"
+            p1:layout_height="0dp"
+            p1:id="@+id/instrBtn"
+            p1:layout_weight="1" />
+        <Button
+            p1:text="Credits"
+            p1:id="@+id/creditsBtn"
+            p1:layout_height="0dp"
+            p1:layout_width="fill_parent"
+            p1:layout_weight="1" />
+    </LinearLayout>
+    <ImageView
+        p1:src="@drawable/ic_launcher"
+        p1:id="@+id/imageView1"
+        p1:scaleType="fitCenter"
+        p1:adjustViewBounds="true"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_alignParentLeft="true"
+        p1:layout_alignParentTop="true"
+        p1:layout_alignParentBottom="true"
+        p1:layout_toLeftOf="@id/linearLayout1" />
+</RelativeLayout>
